@@ -13,6 +13,13 @@ dependencies {
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.2'
+    
+    implementation 'org.apache.commons:commons-email:1.4'
+
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor "org.projectlombok:lombok:1.18.4"
+    testCompileOnly 'org.projectlombok:lombok:1.18.4'
+    testAnnotationProcessor "org.projectlombok:lombok:1.18.4"
 }
 
 application {
